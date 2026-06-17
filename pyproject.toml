@@ -4,4 +4,12 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "confkit[msgspec,pydantic]>=2.0.0",
+    "herogold>=3.6.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "args",
+]
