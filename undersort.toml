@@ -1,0 +1,2 @@
+order = ["public", "protected", "private"]
+method_type_order = ["instance", "class", "static"]

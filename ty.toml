@@ -1,0 +1,7 @@
+
+[src]
+include = ["src"]
+exclude = ["tests"]
+
+[rules]
+invalid-assignment = "ignore"
